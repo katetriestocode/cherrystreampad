@@ -15,14 +15,15 @@ It has 6 keys, and OLED teeny screen and a rotary encoder!
 <img width="832" height="614" alt="schematic" src="https://github.com/user-attachments/assets/8417104a-0862-460d-9f6c-41f7f092f165" />
 
 # BOM parts
-6x Cherry MX Switches
-6x White Keycaps
-4x M3x16mm screws
-2x SK6812 MINI-E LEDs
-1x 0.91" 128x32 OLED Display
-1x EC11 Rotary Encoder
-1x XIAO RP2040
-1x Case (2 printed parts)
+
+- 6x Cherry MX Switches
+- 6x White Keycaps
+- 4x M3x16mm screws
+- 2x SK6812 MINI-E LEDs
+- 1x 0.91" 128x32 OLED Display
+- 1x EC11 Rotary Encoder
+- 1x XIAO RP2040
+- 1x Case (2 printed parts)
 
 
 <shark missing :(>
