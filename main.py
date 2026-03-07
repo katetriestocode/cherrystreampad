@@ -42,6 +42,7 @@ encoder.rotation_ccw = KC.VOLD
 keyboard.modules.append(encoder)
 
 
+ù
 PINS = [board.GP1, board.GP2, board.GP0, board.GP6, board.GP7, board.GP29]
 
 keyboard.matrix = KeysScanner(
