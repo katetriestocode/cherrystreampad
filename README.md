@@ -14,6 +14,10 @@ It has 6 keys, and OLED teeny screen and a rotary encoder!
 # And this is the schematic:
 <img width="832" height="614" alt="schematic" src="https://github.com/user-attachments/assets/8417104a-0862-460d-9f6c-41f7f092f165" />
 
+# this is (just) the case: 
+<img width="1539" height="996" alt="image" src="https://github.com/user-attachments/assets/c97927a2-84f7-40a7-b365-201884df3fa4" />
+
+
 # BOM parts
 
 - 6x Cherry MX Switches
