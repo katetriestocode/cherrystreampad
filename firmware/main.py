@@ -45,7 +45,7 @@ keyboard.modules.append(encoder)
 
 
 
-PINS = [board.GP1, board.GP2, board.GP0, board.GP6, board.GP7, board.GP29, board.GP1]
+PINS = [board.GP1, board.GP2, board.GP0, board.GP6, board.GP7, board.GP29, board.GP26]
 
 keyboard.matrix = KeysScanner(
     pins = PINS,
