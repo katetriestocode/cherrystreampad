@@ -545,261 +545,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:SK6812MINI"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "SK6812MINI"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "SK6812MINI_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812MINI_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OPL:XIAO-RP2040-DIP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1781,12 +1526,6 @@
 		)
 	)
 	(junction
-		(at 149.86 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d0dc454-a2d2-4294-8a18-aea965ab1125")
-	)
-	(junction
 		(at 83.82 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1803,12 +1542,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7255307d-f98f-41c3-9485-e6432e35a330")
-	)
-	(junction
-		(at 149.86 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a64b59a2-065d-40ee-8314-fae2db21ee26")
 	)
 	(junction
 		(at 83.82 143.51)
@@ -1881,6 +1614,16 @@
 			(type default)
 		)
 		(uuid "09373366-ac88-471a-aeeb-4d5034a71a8b")
+	)
+	(wire
+		(pts
+			(xy 213.36 82.55) (xy 208.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4bdd4f-37e9-47bb-bb22-7d16ba03835e")
 	)
 	(wire
 		(pts
@@ -1974,16 +1717,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 81.28) (xy 149.86 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38435f44-624a-43dd-a723-2e2505338120")
-	)
-	(wire
-		(pts
 			(xy 153.67 123.19) (xy 149.86 123.19)
 		)
 		(stroke
@@ -2021,16 +1754,6 @@
 			(type default)
 		)
 		(uuid "54e4b7f0-6ed1-40f0-af1d-d1d32e296103")
-	)
-	(wire
-		(pts
-			(xy 124.46 73.66) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554acbff-1d1e-4725-abad-20422a5cd65c")
 	)
 	(wire
 		(pts
@@ -2081,16 +1804,6 @@
 			(type default)
 		)
 		(uuid "6f7329ee-836d-43f3-8fc5-ac983906b897")
-	)
-	(wire
-		(pts
-			(xy 116.84 66.04) (xy 149.86 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701d5574-3719-4752-abae-f5ca80e4de90")
 	)
 	(wire
 		(pts
@@ -2161,6 +1874,16 @@
 			(type default)
 		)
 		(uuid "a548f54e-6ff6-4f4c-b356-d0fb91971438")
+	)
+	(wire
+		(pts
+			(xy 213.36 73.66) (xy 213.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7e9257-b74d-4709-bc77-79842f11dbb5")
 	)
 	(wire
 		(pts
@@ -2244,13 +1967,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 109.22 73.66)
+			(xy 107.95 73.66) (xy 213.36 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9d64d70-45e7-4056-b0ac-52083b38cc3b")
+		(uuid "eea71b0b-e7de-4fe6-8fbc-5fe913754d4b")
 	)
 	(wire
 		(pts
@@ -2284,16 +2007,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f824b3c0-2c31-412a-9e41-4e9c3cc5b889")
-	)
-	(wire
-		(pts
 			(xy 58.42 173.99) (xy 73.66 173.99)
 		)
 		(stroke
@@ -2311,82 +2024,6 @@
 			(type default)
 		)
 		(uuid "ff930151-77bd-468d-8bf0-72b5f546a32b")
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 149.86 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02a1dc1d-7beb-4a66-92d3-4f8041494db8")
-		(property "Reference" "D2"
-			(at 162.56 67.2398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 162.56 69.7798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 152.4 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d081612f-da4e-4fab-bc50-7ceb8266e04a")
-		)
-		(pin "4"
-			(uuid "96c6b82a-d2f4-49c2-8b8a-ad5f21d15aa0")
-		)
-		(pin "2"
-			(uuid "5ad74227-9f96-45e6-bbd0-2c5425391ba9")
-		)
-		(pin "1"
-			(uuid "7bb363d6-ae1b-44cf-bcbd-2b3201b4e33e")
-		)
-		(instances
-			(project "kicadproject"
-				(path "/f24ccd96-b194-4354-9c86-81f8708e35a3"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2516,72 +2153,6 @@
 			(project "kicadproject"
 				(path "/f24ccd96-b194-4354-9c86-81f8708e35a3"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18fd1720-f632-4751-a952-4d32d5d70a71")
-		(property "Reference" "#PWR01"
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b1753fa-e502-48cd-a09a-566a40e955f8")
-		)
-		(instances
-			(project ""
-				(path "/f24ccd96-b194-4354-9c86-81f8708e35a3"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3022,148 +2593,6 @@
 			(project ""
 				(path "/f24ccd96-b194-4354-9c86-81f8708e35a3"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 149.86 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8039eefe-b4db-4f62-9224-e393f8f2a0e4")
-		(property "Reference" "#PWR03"
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 149.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7597694-d998-4cfd-bc7d-66a69441b071")
-		)
-		(instances
-			(project ""
-				(path "/f24ccd96-b194-4354-9c86-81f8708e35a3"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 116.84 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93823321-f18b-4c9f-b513-0d0929d098e8")
-		(property "Reference" "D1"
-			(at 129.54 67.2398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 129.54 69.7798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 118.11 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 119.38 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 116.84 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "968b52c7-9295-4308-90f5-d5e7960d6b91")
-		)
-		(pin "4"
-			(uuid "b7ef0a33-8b84-4ec1-be6e-3ba1b3e311ec")
-		)
-		(pin "2"
-			(uuid "127c1d89-d224-4b0d-9fc6-817d8123b7e5")
-		)
-		(pin "1"
-			(uuid "90ef0659-229a-480b-9b54-884128188828")
-		)
-		(instances
-			(project ""
-				(path "/f24ccd96-b194-4354-9c86-81f8708e35a3"
-					(reference "D1")
 					(unit 1)
 				)
 			)
