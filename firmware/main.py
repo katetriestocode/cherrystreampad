@@ -33,7 +33,6 @@ oled = OLED(
 keyboard.extensions.append(MediaKeys())
 keyboard.extensions.append(macros)
 keyboard.extensions.append(oled)
-keyboard.extensions.append(rgb)
 
 
 
@@ -43,7 +42,7 @@ encoder.rotation_ccw = KC.VOLD
 keyboard.modules.append(encoder)
 
 
-
+# (Total of 7 pins: 6 buttons + 1 encoder switch on GP26)
 PINS = [board.GP1, board.GP2, board.GP0, board.GP6, board.GP7, board.GP29, board.GP26]
 
 keyboard.matrix = KeysScanner(
