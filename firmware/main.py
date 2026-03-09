@@ -10,7 +10,6 @@ from kmk.extensions.OLED import OLED, OledData, OledReactionType
 keyboard = KMKKeyboard()
 macros = Macros()
 media_keys = MediaKeys()
-encoder_handler = RotaryEncoderHandler()
 
 #keybinds for shortcuts (to configure in puter)
 OPEN_APP = KC.LCTL(KC.LALT(KC.LSFT(KC.E)))
