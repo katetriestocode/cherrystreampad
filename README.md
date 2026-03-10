@@ -12,11 +12,13 @@ It has 6 keys, and OLED teeny screen and a rotary encoder!
 
 
 # This is the PCB:
-<img width="660" height="507" alt="pcb" src="https://github.com/user-attachments/assets/70352100-9243-4d76-b822-0a77e679bcba" />
+<img width="647" height="467" alt="pcb" src="https://github.com/user-attachments/assets/878f951e-906b-453c-854c-e003f8ba6d0c" />
+
 
 
 # And this is the schematic:
-<img width="783" height="585" alt="schematic" src="https://github.com/user-attachments/assets/154cdfc7-e140-4eac-87a2-a85e81b36d67" />
+<img width="685" height="508" alt="schematic" src="https://github.com/user-attachments/assets/4d2d3ed2-8abb-4f53-bc90-869561fb006f" />
+
 
 
 # this is (just) the case: 
