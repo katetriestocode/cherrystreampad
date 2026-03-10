@@ -3,19 +3,24 @@ hackclub project!
 
 This is my cherrystreampad!
 (cherry when i paint it LOL)
+its used as a streampad/deck, with handy dandy tools such as volume control and app shortcuts!
+I made this caus stream decks are super expensive, and this was so fun to do!!!
 
 It has 6 keys, and OLED teeny screen and a rotary encoder!
-<img width="692" height="510" alt="assembled" src="https://github.com/user-attachments/assets/a90a45c2-4390-478a-9066-bc5d5dea2ee8" />
+<img width="865" height="512" alt="assembled" src="https://github.com/user-attachments/assets/e5cd4ed4-d4f8-4e61-84f0-4cde8b835f5d" />
+
 
 
 # This is the PCB:
-<img width="464" height="347" alt="pcb" src="https://github.com/user-attachments/assets/3f3454d0-cbae-486a-b4fc-c7c43f313cd9" />
+<img width="660" height="507" alt="pcb" src="https://github.com/user-attachments/assets/70352100-9243-4d76-b822-0a77e679bcba" />
+
 
 # And this is the schematic:
-<img width="832" height="614" alt="schematic" src="https://github.com/user-attachments/assets/8417104a-0862-460d-9f6c-41f7f092f165" />
+<img width="783" height="585" alt="schematic" src="https://github.com/user-attachments/assets/154cdfc7-e140-4eac-87a2-a85e81b36d67" />
+
 
 # this is (just) the case: 
-<img width="1539" height="996" alt="image" src="https://github.com/user-attachments/assets/c97927a2-84f7-40a7-b365-201884df3fa4" />
+<img width="756" height="455" alt="assembledjustcase" src="https://github.com/user-attachments/assets/3d19b0fe-c941-4a6d-9bfc-57308d834c82" />
 
 
 # BOM parts
@@ -23,7 +28,6 @@ It has 6 keys, and OLED teeny screen and a rotary encoder!
 - 6x Cherry MX Switches
 - 6x White Keycaps
 - 4x M3x16mm screws
-- 2x SK6812 MINI-E LEDs
 - 1x 0.91" 128x32 OLED Display
 - 1x EC11 Rotary Encoder
 - 1x XIAO RP2040
