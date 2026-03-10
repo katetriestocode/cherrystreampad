@@ -3,6 +3,8 @@ hackclub project!
 
 This is my cherrystreampad!
 (cherry when i paint it LOL)
+its used as a streampad/deck, with handy dandy tools such as volume control and app shortcuts!
+I made this caus stream decks are super expensive, and this was so fun to do!!!
 
 It has 6 keys, and OLED teeny screen and a rotary encoder!
 <img width="865" height="512" alt="assembled" src="https://github.com/user-attachments/assets/e5cd4ed4-d4f8-4e61-84f0-4cde8b835f5d" />
