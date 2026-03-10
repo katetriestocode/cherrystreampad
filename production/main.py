@@ -24,8 +24,8 @@ oled_data = OledData(
 oled = OLED(
     oled_addr = 0x3C,
     to_display=oled_data,
-    i2c_sda = board.GP27,
-    i2c_scl= board.GP28,
+    i2c_sda = board.GP6,
+    i2c_scl= board.GP7,
 )
 
 
@@ -43,7 +43,7 @@ keyboard.modules.append(encoder)
 
 
 # (Total of 7 pins: 6 buttons + 1 encoder switch on GP26)
-PINS = [board.GP1, board.GP2, board.GP0, board.GP6, board.GP7, board.GP29, board.GP26]
+PINS = [board.GP1, board.GP2, board.GP0, board.GP29, board.GP28, board.GP27, board.GP26]
 
 keyboard.matrix = KeysScanner(
     pins = PINS,
